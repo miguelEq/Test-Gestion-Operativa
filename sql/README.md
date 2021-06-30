@@ -18,8 +18,7 @@ la tabla ​ Cantidad de envíos​ .
 *¿Que propuesta harías para el mes 1 considerando un presupuesto de
 $3.000.000?(En realidad no entendi bien esta pregunta)
 
---Respuesta:
-  Aumentaria la capacidad de los carriers.
+--Respuesta: ...
 
 *¿Qué queries realizaste?
 
