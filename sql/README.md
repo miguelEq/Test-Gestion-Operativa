@@ -16,12 +16,10 @@ la tabla ​ Cantidad de envíos​ .
  Aqui no le doy importancia a la propiedad capacity del Carrier ya que la cantidad de envios supera a esa capacidad e interprete que habia que saber el costo de enviar toda la cantidad de envios de cada zona sin limitaciones.
 
 *¿Que propuesta harías para el mes 1 considerando un presupuesto de
-$3.000.000?
+$3.000.000?(En realidad no entendi bien esta pregunta)
 
 --Respuesta:
   Aumentaria la capacidad de los carriers.
-  
- (En realidad no entendi bien esta pregunta)
 
 *¿Qué queries realizaste?
 
