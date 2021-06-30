@@ -1,4 +1,4 @@
-##Pasos para Ejecutar script
+## Script
 
  El script esta hecho en node js, en caso de no tener instalado node ir a la pagina oficial y descargarlo https://nodejs.org/es/  
 
