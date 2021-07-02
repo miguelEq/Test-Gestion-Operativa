@@ -7,18 +7,19 @@ la tabla ​ Cantidad de envíos​ .
 
 --Respuesta:
 
-  Carrier 1 total de costos 4400000
+  Carrier 1 total de costos 440
   
-  Carrier 2 total de costos 4850000
+  Carrier 2 total de costos 485
   
-  Carrier 3 total de costos 800000
+  Carrier 3 total de costos 260
  
- Aqui no le doy importancia a la propiedad capacity del Carrier ya que la cantidad de envios supera a esa capacidad e interprete que habia que saber el costo de enviar toda la cantidad de envios de cada zona sin limitaciones.
 
 *¿Que propuesta harías para el mes 1 considerando un presupuesto de
-$3.000.000?(En realidad no entendi bien esta pregunta)
+$3.000.000?
 
---Respuesta: ...
+--Respuesta: 
+    
+  Con un presupuesto de $3.000.000 podria aumentar la cantidad de envios que podria realizar el mes 1    
 
 *¿Qué queries realizaste?
 

@@ -42,8 +42,11 @@ insert into Costos(Carrier_id,Zona,Costo,Tiempo_entrega) values (2,"Resto",55,6)
 insert into Costos(Carrier_id,Zona,Costo,Tiempo_entrega) values (3,"Amba",20,1);
 select * from Costos;
 
---Query para obtener el precio total del costo de los envios del mes 1 para cada carrier
-select Carrier_id , sum(Costo * Cantidad_envios) as costo_envio 
+
+select Carrier_id,sum(Costo * Cant_envios) as costo_envio
+from (select Carrier.Carrier_id, Zona, Costo , (Cantidad_envios Div Capacity) as Cant_envios  
+from (select Carrier_id , Costos.Zona , Costo , Cantidad_envios 
 from Costos 
-inner join Cantidad_de_envios on Cantidad_de_envios.Zona = Costos.Zona 
+inner join Cantidad_de_envios on Cantidad_de_envios.Zona = Costos.Zona) as constos_cant_envios 
+inner join Carrier on constos_cant_envios.Carrier_id = Carrier.Carrier_id) as cant_envios
 group by Carrier_id;
